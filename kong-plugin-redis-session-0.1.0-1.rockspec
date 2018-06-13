@@ -12,7 +12,7 @@ local pluginName = package:match("^kong%-plugin%-(.+)$")  -- "redisSession"
 supported_platforms = {"linux", "macosx"}
 source = {
   -- these are initially not required to make it work
-  url = "git://github.com/vietlongn/redis_session",
+  url = "git://github.com/vietlongn/kong-plugin-redis-session",
   tag = "0.1.0"
 }
 

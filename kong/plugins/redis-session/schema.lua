@@ -4,7 +4,7 @@ local redis = require "resty.redis"
 
 return {
     fields = {
-        cookie_name = { type = "string", default="SESSION" },
+        cookie_name = { type = "string", default="sid" },
         redis_session_prefix = { type = "string", default = "" },
         redis_host = { type = "string" },
         redis_port = { type = "number", default = 6379 },
